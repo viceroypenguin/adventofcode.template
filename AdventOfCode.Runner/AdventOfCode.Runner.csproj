@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="AdventOfCode.Common.Attributes" />
+		<Using Include="AdventOfCode.Common.Interfaces" />
+		<Using Include="AdventOfCode.Common.Models" />
+		<Using Include="SuperLinq" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.10" />
+		<PackageReference Include="docopt.net" Version="0.8.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+		<PackageReference Include="Spectre.Console" Version="0.47.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AdventOfCode.Common\AdventOfCode.Common.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2015\AdventOfCode.Puzzles.2015.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2016\AdventOfCode.Puzzles.2016.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2017\AdventOfCode.Puzzles.2017.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2018\AdventOfCode.Puzzles.2018.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2019\AdventOfCode.Puzzles.2019.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2020\AdventOfCode.Puzzles.2020.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2021\AdventOfCode.Puzzles.2021.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2022\AdventOfCode.Puzzles.2022.csproj" />
+		<ProjectReference Include="..\AdventOfCode.Puzzles\2023\AdventOfCode.Puzzles.2023.csproj" />
+	</ItemGroup>
+
+</Project>
