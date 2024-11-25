@@ -1,0 +1,22 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+
+# C# Build objects
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio User Prefs
+.vs/
+
+# Ignore app settings file, session id is secret and goes there
+appsettings.json
+
+# Ignore input files, they will be re-downloaded
+*.input.txt
+
+# BDN Artifacts
+BenchmarkDotNet.Artifacts/
