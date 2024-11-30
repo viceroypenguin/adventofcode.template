@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using Microsoft.Extensions.Configuration;
 
 namespace AdventOfCode.Runner;
@@ -39,7 +39,7 @@ public sealed class PuzzleInputProvider
 
 	public PuzzleInput GetRawInput(int year, int day)
 	{
-		var inputFile = @$"Inputs\{year}\day{day:00}.input.txt";
+		var inputFile = $"Inputs/{year}/day{day:00}.input.txt";
 		_ = Directory.CreateDirectory(Path.GetDirectoryName(inputFile)!);
 		if (!File.Exists(inputFile))
 		{
